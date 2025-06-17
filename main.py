@@ -43,4 +43,3 @@ async def get_info():
             "time": formatted_time,
             "weather" : weather
         }
-    
