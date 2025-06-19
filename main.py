@@ -18,6 +18,7 @@ def get_weather ():
         data = response.json()
 
         weather = {
+            #  'date':data['date'],
             'city':data['name'],
             'temperature':data['main']['temp'],
             'description':data['weather'][0]['description'],
